@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contanier">
+      <h1 style="text-align: center">Company Directory Portal</h1>
+      <section class="form-section">
+        <h2>Employee Registration Form</h2>
+        <form class="employee">
+          <div class="form-group">
+            <label for="FullName">Full Name:</label>
+            <input type="text" id="full Name" name="fullName" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="Department">Department:</label>
+            <select id="Department" name="Department" required>
+              <option value=""></option>
+              <option value="hr">hr</option>
+              <option value="IT">IT</option>
+              <option value="Finance">Finance</option>
+              <option value="marketing">marketing</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="Employeeid">Employee ID</label>
+            <input type="number" id="employeeid" name="employeeid" required />
+          </div>
+          <div class="form-group">
+            <label for="profilepic">Profile Picture URL:</label>
+            <input type="url" id="profilepic" name="profilepic" required />
+          </div>
+          <div class="form-group">
+            <button type="submit">Register Employee</button>
+          </div>
+        </form>
+      </section>
+      <section class="list-section">
+        <h2>Employee List</h2>
+        <ol class="employeelist">
+          <li>
+            <a href="#">John Doe - john@example.com</a>
+          </li>
+          <li>
+            <a href="#">Jane Smith - jane@example.com</a>
+          </li>
+        </ol>
+      </section>
+      <section class="table-section">
+        <h2>Employee Details</h2>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Employee ID</th>
+            <th>Department</th>
+            <th>Profile Picture</th>
+          </tr>
+          <tr>
+            <td>John Doe</td>
+            <td>12345</td>
+            <td>IT</td>
+            <td>
+              <img src="https://via.placeholder.com/50" alt="John's Profile" />
+            </td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>67890</td>
+            <td>HR</td>
+            <td>
+              <img src="https://via.placeholder.com/50" alt="John's Profile" />
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="map-section">
+        <h2>Company Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d367.26607652443727!2d78.38971596211196!3d17.498030204824097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e1!3m2!1sen!2sin!4v1727238708760!5m2!1sen!2sin"
+          frameborder="0"
+        ></iframe>
+      </section>
+    </div>
+  </body>
+</html>
