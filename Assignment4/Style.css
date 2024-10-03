@@ -1,0 +1,346 @@
+* {
+  overflow-x: hidden;
+}
+
+#sec1 {
+  background-image: url(one.jpeg);
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+#sec1 h1 {
+  font-size: 3.5rem;
+  margin-top: 80px;
+  overflow-y: hidden;
+}
+#sec1 h6 {
+  margin-top: 20px;
+  font-weight: 600;
+  overflow-y: hidden;
+}
+#sec1 p {
+  margin-top: 20px;
+  width: 600px;
+  font-weight: 400;
+}
+/* -----------------section-2------------ */
+.img {
+  width: 360px;
+  height: 270px;
+}
+#sec2 {
+  padding: 20px;
+}
+.sladetwo h1 {
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  overflow-y: hidden;
+}
+.sladetwo p {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+/* -----------------section-3------------ */
+#sec3 {
+  background-image: url(two.jpeg);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  display: block;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: 50% 15%;
+  overflow-x: hidden;
+  position: absolute;
+}
+#sub3 {
+  color: white !important;
+  padding-right: 300px;
+  margin-top: 55px;
+}
+#sub3 h2 {
+  font-weight: 900;
+  font-size: 40px;
+  overflow-y: hidden;
+}
+/* -----------------section-4------------ */
+#sec4 {
+  color: rgb(20, 20, 20) !important;
+  position: relative;
+  top: 225px;
+  padding: 0px 180px;
+}
+.image {
+  width: 360px;
+  height: 350px;
+  overflow-y: hidden;
+}
+
+#sub h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: Oswald, sans-serif !important;
+  margin-top: 10px;
+}
+#sub p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+/* -----------------section-5------------ */
+#sec5 {
+  background-color: #f2f2f2;
+  margin-top: 230px;
+}
+#sub5 {
+  font-family: Oswald, sans-serif !important;
+  margin-top: 55px;
+  padding-right: 322px;
+}
+.group {
+  display: flex;
+  padding: 0px 34px 0px 150px;
+}
+
+.group img {
+  padding: 20px;
+}
+.data h2 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  font-family: "Oswald", sans-serif;
+  margin-top: 42px;
+}
+.data h6 {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.data p {
+  margin: 10px 0 0 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#sec6 {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(4, 228, 34);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(ten.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.box {
+  padding: 0%;
+}
+
+#group5 {
+  /* border: 1px solid red; */
+  margin: auto;
+  padding: 61px 168px 66px;
+  width: 100%;
+  position: absolute;
+}
+#group5 h1 {
+  font-size: 60px;
+  font-family: Oswald, sans-serif !important;
+  font-weight: 700;
+  text-align: center;
+}
+#group5 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.subhead1 {
+  margin-top: -20px;
+}
+
+.sec7 {
+  width: 100%;
+  color: black;
+  margin-top: 25px;
+}
+.h2e {
+  font-weight: 700;
+  font-family: "Oswald", sans-serif !important;
+  margin-left: 10px;
+}
+.p7 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 28px;
+  padding: 0px 559px 0px 10px;
+  margin-top: 21px;
+}
+
+.group3 {
+  display: flex;
+  margin-top: -12px;
+}
+
+.part15 {
+  /* border: 2px solid rgb(17, 0, 255); */
+  margin: auto;
+  padding-left: 0 !important;
+  padding-right: 30px;
+}
+
+.aa {
+  padding: 10px;
+  max-width: 100%;
+}
+h2 {
+  font-weight: 700 !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.1rem;
+  text-align: left;
+  margin-top: 20px;
+}
+.part16b::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 220px;
+  background-color: #0a0a0a;
+  left: 484px;
+}
+.part16b {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  padding: 20px;
+}
+.part16c img {
+  position: relative;
+  right: 20px;
+}
+.part16c {
+  width: 357px;
+  padding: 10px;
+  margin-top: -20px;
+}
+
+.part17a img {
+  padding: 15px;
+}
+.part17b {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  top: -5px;
+}
+.part17c {
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  top: -4px;
+  padding-right: 40px;
+}
+.data {
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 575px) {
+  #sec1 p {
+    width: 350px;
+  }
+  .img {
+    width: 250px;
+    height: 270px !important;
+  }
+  #sub3 {
+    /* width: 500px; */
+    padding-right: 0px !important;
+    margin-top: 10px !important;
+  }
+  #sub3 p {
+    font-weight: 300 !important;
+    padding: 0px 3px !important;
+  }
+  #sec4 {
+    padding: 50px;
+    position: relative;
+    top: 150px;
+    left: 10px !important;
+  }
+  #sub {
+    margin-top: 41px;
+    h3 {
+      margin-top: 15px !important;
+    }
+  }
+
+  .sladetwo p {
+    text-align: center;
+    margin-left: 10px !important;
+  }
+  #sec5 {
+    margin-top: 110px;
+  }
+  #sub5 {
+    padding-right: 110px !important;
+    margin-left: 30px !important;
+  }
+  #sub5 h2 {
+    margin-top: 0px !important;
+  }
+  .group {
+    display: flow !important;
+    padding-left: 88px !important;
+  }
+  .group img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .data h2 {
+    margin-top: 0px !important;
+  }
+  #sec6 {
+    height: 600px !important;
+    margin-top: 10px !important;
+  }
+  #group5 {
+    padding: 60px 95px 0px !important;
+  }
+  .p7 {
+    font-size: 1.1rem !important;
+    padding: 0px 0px 0px 5px !important;
+    margin-top: 0px !important;
+  }
+  .group3 {
+    padding: 0px 31px 0px;
+    display: block;
+  }
+  .aa {
+    width: 1000px !important;
+    height: auto !important;
+  }
+  .part16b::before {
+    height: 174px !important;
+    left: 30px !important;
+  }
+  .part16c img {
+    position: relative;
+    right: 50px !important;
+  }
+  .part16c {
+    width: 100% !important;
+  }
+  .part17a img {
+    margin-top: 10px !important;
+    padding: 0px !important;
+    width: 390px !important;
+    height: auto !important;
+  }
+  .part17b {
+    margin-top: 15px !important;
+  }
+  .part17c {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+  }
+}
